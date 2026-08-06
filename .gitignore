@@ -1,0 +1,30 @@
+# Private and local-only material
+/private/
+*.private.md
+*.local.md
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Temporary and editor files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+
+# Office lock files
+~$*
+
+# Local agent/runtime state
+.claude/
+.codex/
