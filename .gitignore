@@ -16,6 +16,7 @@
 *.bak
 *.swp
 *~
+_scan-*.txt
 .DS_Store
 Thumbs.db
 Desktop.ini
@@ -28,3 +29,4 @@ Desktop.ini
 # Local agent/runtime state
 .claude/
 .codex/
+
