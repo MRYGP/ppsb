@@ -9,7 +9,7 @@
 
 - 分支：main
 - 上次核验时 HEAD：37d9ce3（commit message: 8.7），与 origin/main 一致
-- 未跟踪目录：decisions/、research/claude/、research/instructions/、research/深度研究报告/
+- 未跟踪目录：decisions/、research/claude/、research/instructions/、research/external/
 - 待办：上述目录尚未提交，本地无备份
 
 ## 二、当前唯一执行入口
@@ -30,7 +30,8 @@
 | 步骤5 | README 与 STATUS.md | 已核验通过 | 无 |
 | 步骤6 | 提交备份与 gitignore | 执行中 | 无 |
 | 步骤7 | PB/SK 第二轮落盘、指令 C 补齐、外部报告目录重组 | 未建 | 报告仍只在对话窗口 |
-| 步骤8 | 验收复扫、去 BOM、删临时文件 | 未建 | 无 |
+| 步骤8 | 外部报告重组、轮次改名、AGENTS 环境规则 | 已执行待核 | 无 |
+| 步骤9 | 验收复扫、去 BOM、删临时文件 | 未建 | 无 |
 
 
 ## 四、待杨裁决事项
@@ -44,14 +45,15 @@
 | 2026-08-07 | 五档是否按 SK 建议缩为 A 加 D' 两档 |
 | 2026-08-07 | 填写人格版本规格书七层表，决定配置甲/乙/丙 |
 | 2026-08-07 | 确认配置乙为唯一主推配置，并放弃配置甲作为人格版本定义 |
+| 2026-08-07 | PB R2 末句提问：是否起草「同一人第二个版本付款记录」定向检索工单 |
+| 2026-08-07 | SK R2 建议：阶段 B 是否从五档缩为 A 加 D' 两档 |
 
 ## 五、已知未修缺陷
 
 | 项 | 位置 | 计划 |
 |---|---|---|
-| BOM | decisions 决策文件、research/claude 报告、instructions 两份指令 | 步骤7 |
-| 过期表述 | research/tombstones 死法与墓碑分析第 140 行「三档询价即可开始关闭」 | 不改，带日期报告 |
-| 临时文件 | `_scan-01.txt` | 步骤7 删除，并加入 .gitignore |
+| BOM | decisions、research/claude、instructions 三处 | 写文件工具无法控制 BOM，接受不修，不影响功能 |
+| 过期表述 | research/tombstones 死法与墓碑分析第 140 行 | 不改，带日期报告 |
 
 ## 六、本轮不做的事
 
